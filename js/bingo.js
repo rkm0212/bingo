@@ -76,9 +76,9 @@ var bingo = function(bingoList, size) {
 		  items.push( encodeURIComponent($(cells[i]).html()) );
 		}
 		if (mode == 'simple-stream') {
-		  window.open('/bingo/bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
+		  window.open('https://www.speedrunslive.com/tools/bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
 		else {
-		  window.open('/bingo/bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
+		  window.open('https://www.speedrunslive.com/tools/bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
 	});
 
 	$("#bingo tr td:not(.popout), #selected td").toggle(
