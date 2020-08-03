@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MMbingo</title>
+    <link rel="icon" type="image/x-icon" href="http://img.atwikiimg.com/www4.atwiki.jp/mmrta_explanation/pub/160px-Moon.ico">
+
+    <!-- Style -->
+    <link href="./css/bingo.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Scripts -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/seedrandom-min.js" type="text/javascript"></script>
+    <script src="./js/bingo.js" type="text/javascript"></script>
+
+    <!-- Bingo Table -->
+    <script src="./mmbingodaikonedit.js" type="text/javascript"></script>
+
+    <style>#main, #main > .container { padding-bottom:0 !important; }</style>
+</head>
+
+<body>
+<div id="wrap"><div id="main"><div class="container">
+    <div id="bingoPage">
+
+        <div id="about_bingo">
+            <h2 style="margin-top:15px; padding-top:0px">新しいカードを生成する</h2>
+
+            <p><span class="note">新しいカードを引きたい場合は下のボタンを押してネ！</span></p>
+            <p style="margin-top:20px;" id="sortButtons">
+                <a class="sortButton" href="#" onclick="reseedPage();">Normal Card</a>
+                <a class="sortButton" href="#" onclick="reseedPage('short');">Short Card</a>
+                <a class="sortButton" href="#" onclick="reseedPage('long');">Long Card</a>
+            </p>
+
+           <h2 style="margin-top:20px; padding-top:0px">ビンゴレースについて</h2>
+<p>ビンゴレースとはタスクを埋めていく遊び方です（タスクとは1つ1つのマスのこと）</p>
+<p>タスクを縦、横、斜めのいずれか1列を5つ早く埋めるとゴールになります</p>
+<p>シード値に即してカードは構成されます。シード値を変えるとカードも変わります。</p>
+<p>クリックすることで緑→赤→黒に色を変えることができます。（避けたいものは赤色を付けるなどに使えます）</p>
+<p></p>
+<p></p>
+<h2 style="margin-top:35px; padding-top:0px">MM Bingo D.editについて</h2>
+<p>タスクを思いつくたびに修正、追加していくので過去のレースで使用したカードが同じシード値であっても現在のと一致しないことがあります。ご了承ください。</p>
+<p>他のビンゴの改変なのでMinecraftと書いてありますが気にしないでください</p>
+<p>ビンゴレースの遊び方はSRLやwikiを参照してください。</p>
+<p><a style="text-decoration:underline;" href="http://www4.atwiki.jp/mmrta_explanation/">ムジュラRTAwiki</a></p>
+<p>D.edit update and fix oftenly. so there is a thing that does not match the past card.</p>
+<p>Please understand this.</p>
+<p> </p>
+<p>Not exact english probably. and not completely bingo.</p>
+<p>enter "&lang=en" last URL. tasks translated to english.</p>
+<p>・"softlock" means can't operation link but ringing BGM.</p> 
+<p></p>
+<p></p>
+
+            <p>&nbsp;</p>
+            <p><span class="note right"></span></p>
+        </div>
+
+        <div id="results">
+            <table id="bingo"><tbody>
+            <tr>
+                <td class="popout" id="tlbr">TL-BR</td>
+                <td class="popout" id="col1">COL1</td>
+                <td class="popout" id="col2">COL2</td>
+                <td class="popout" id="col3">COL3</td>
+                <td class="popout" id="col4">COL4</td>
+                <td class="popout" id="col5">COL5</td>
+            </tr>
+            <tr>
+                <td class="popout" id="row1">ROW1</td>
+                <td class="row1 col1 tlbr" id="slot1"></td>
+                <td class="row1 col2" id="slot2"></td>
+                <td class="row1 col3" id="slot3"></td>
+                <td class="row1 col4" id="slot4"></td>
+                <td class="row1 col5 bltr" id="slot5"></td>
+            </tr><tr>
+                <td class="popout" id="row2">ROW2</td>
+                <td class="row2 col1" id="slot6"></td>
+                <td class="row2 col2 tlbr" id="slot7"></td>
+                <td class="row2 col3" id="slot8"></td>
+                <td class="row2 col4 bltr" id="slot9"></td>
+                <td class="row2 col5" id="slot10"></td>
+            </tr><tr>
+                <td class="popout" id="row3">ROW3</td>
+                <td class="row3 col1" id="slot11"></td>
+                <td class="row3 col2" id="slot12"></td>
+                <td class="row3 col3 tlbr bltr" id="slot13"></td>
+                <td class="row3 col4" id="slot14"></td>
+                <td class="row3 col5" id="slot15"></td>
+            </tr><tr>
+                <td class="popout" id="row4">ROW4</td>
+                <td class="row4 col1" id="slot16"></td>
+                <td class="row4 col2 bltr" id="slot17"></td>
+                <td class="row4 col3" id="slot18"></td>
+                <td class="row4 col4 tlbr" id="slot19"></td>
+                <td class="row4 col5" id="slot20"></td>
+            </tr><tr>
+                <td class="popout" id="row5">ROW5</td>
+                <td class="row5 col1 bltr" id="slot21"></td>
+                <td class="row5 col2" id="slot22"></td>
+                <td class="row5 col3" id="slot23"></td>
+                <td class="row5 col4" id="slot24"></td>
+                <td class="row5 col5 tlbr" id="slot25"></td>
+            </tr>
+            <tr>
+                <td class="popout" id="bltr">BL-TR</td>
+                <td colspan="5" style="display:none;"></td>
+            </tr>
+            </tbody></table>
+        </div>
+
+    </div>
+</div></div></div>
+</body>
+</html>
