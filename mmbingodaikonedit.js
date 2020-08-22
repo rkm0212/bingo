@@ -1468,8 +1468,7 @@ bingoList[21] = [{ name: "カラミティスペル7種類", types: ["calamity"] 
 
 
 
-bingoList[22] = [{ name: "強化GOD", types: ["rein"] },
-{ name: "k", types: [""] }];
+bingoList[22] = [{ name: "強化GOD", types: ["rein"] }];
 
 
 
@@ -1538,9 +1537,8 @@ bingoList[22] = [{ name: "強化GOD", types: ["rein"] },
 
 
 
-bingoList[23] = [{ name: "強化DMM", types: ["rein"] },
-{ name: "l", types: [""] }];
 
+bingoList[23] = [{ name: "強化DMM", types: ["rein"] }];
 
 
 
@@ -1608,10 +1606,9 @@ bingoList[23] = [{ name: "強化DMM", types: ["rein"] },
 
 
 
-bingoList[24] = [{ name: "強化ツーペア(AADDなど)", types: ["rein"] },
-{ name: "m", types: [""] }];
 
 
+bingoList[24] = [{ name: "強化ツーペア(AADDなど)", types: ["rein"] }];
 
 
 
@@ -1678,8 +1675,11 @@ bingoList[24] = [{ name: "強化ツーペア(AADDなど)", types: ["rein"] },
 
 
 
-bingoList[25] = [{ name: "Nルートでセリフ倒す", types: ["hell"] },
-{ name: "Nルートでセリフ倒す", types: ["hell"] }];
+
+
+
+bingoList[25] = [{ name: "Nルートでセリフ倒す", types: ["hell"] }];
+
 
 
 
