@@ -52,7 +52,7 @@ bingoList[1] = [{ name: "アマルガム", types: ["epic_spell"] },
 { name: "盗人免許", types: ["epic_art"] },
 { name: "ステップドローン", types: ["epic_art"] },
 { name: "トライフロスト", types: ["epic_art"] }];
-bingoList[2] = [{ name: "", types: [""] }];
+bingoList[2] = [{ name: "a", types: [""] }];
 bingoList[3] = [{ name: "お金2000以上所持", types: ["money"] },
 { name: "アンビエントバースト", types: ["rare"] },
 { name: "ブースターショット", types: ["rare"] },
@@ -124,7 +124,7 @@ bingoList[7] = [{ name: "防御力-201以下", types: ["defence"] },
 bingoList[8] = [{ name: "お金365", types: ["money"] },
 { name: "ボスと相打ち", types: ["boss"] },
 { name: "ソウルファイア160ダメージ以上", types: ["rein"] }];
-bingoList[9] = [{ name: "", types: [""] }];
+bingoList[9] = [{ name: "s", types: [""] }];
 bingoList[10] = [{ name: "ブレードスクリーム", types: ["calamity_spell"] },
 { name: "サイネット", types: ["calamity_spell"] },
 { name: "エクスカリバー", types: ["calamity_spell"] },
@@ -147,15 +147,15 @@ bingoList[13] = [{ name: "お金666", types: ["money"] },
 { name: "Pルート13分台クリア", types: ["clear"] }];
 bingoList[14] = [{ name: "スペル強化6段階", types: ["rein"] }];
 bingoList[15] = [{ name: "Gルート15分台クリア", types: ["clear"] }];
-bingoList[16] = [{ name: "", types: [""] }];
-bingoList[17] = [{ name: "", types: [""] }];
-bingoList[18] = [{ name: "", types: [""] }];
-bingoList[19] = [{ name: "", types: [""] }];
-bingoList[20] = [{ name: "", types: [""] }];
+bingoList[16] = [{ name: "d", types: [""] }];
+bingoList[17] = [{ name: "f", types: [""] }];
+bingoList[18] = [{ name: "g", types: [""] }];
+bingoList[19] = [{ name: "h", types: [""] }];
+bingoList[20] = [{ name: "j", types: [""] }];
 bingoList[21] = [{ name: "カラミティスペル7種類", types: ["calamity"] }];
-bingoList[22] = [{ name: "", types: [""] }];
-bingoList[23] = [{ name: "", types: [""] }];
-bingoList[24] = [{ name: "", types: [""] }];
+bingoList[22] = [{ name: "k", types: [""] }];
+bingoList[23] = [{ name: "l", types: [""] }];
+bingoList[24] = [{ name: "m", types: [""] }];
 bingoList[25] = [{ name: "Nルートでセリフ倒す", types: ["hell"] }];
 
 $(function() { srl.bingo(bingoList, 5); });
