@@ -32,12 +32,12 @@ bingoList[1] = [{ name: "アイスホッケー", types: ["ice_h"] },
 { name: "イッセイホウシャ3段階強化以上", types: ["issei"] },
 { name: "レールガン2段階強化以上", types: ["railgun"] },
 { name: "Iが付いたコスト1のスペル", types: ["I"] },
-{ name: "バックスタブ、ヘルファイア、バックバーナー", types: ["b_dtav", "h_fire", "b_burner"] }];
-
-
-
-
-
+{ name: "バックスタブ、ヘルファイア、バックバーナー", types: ["b_dtav", "h_fire", "b_burner"] },
+{ name: "クライオファージ、サーモファージ", types: ["cf", "sf"] },
+{ name: "サンビーマー2段階強化", types: ["sb"] },
+{ name: "コブラケア、盗人免許", types: ["cc", "thief"] },
+{ name: "キシュウ、キュウシュウ、タレットSD", types: ["kisyu", "kyu", "t_sd"] },
+{ name: "タレットSD、ホーリーグラウンド", types: ["cal_col", "t_sd", "hg"] }];
 
 
 
@@ -89,9 +89,9 @@ bingoList[2] = [{ name: "ウィルスペル", types: ["virus"] },
 { name: "アライン3段階強化以上", types: ["align"] },
 { name: "カゼグスリ2段階強化以上", types: ["kaze"] },
 { name: "マナポーション2段階強化以上", types: ["m_pot"] },
-{ name: "ブーメラン2段階強化以上", types: ["boom"] }];
-
-
+{ name: "ブーメラン2段階強化以上", types: ["boom"] },
+{ name: "タレットSD、インクライン", types: ["t_sd", "i_line"] },
+{ name: "タレットSD、ダウンフォール", types: ["cal_col", "t_sd", "df"] }];
 
 
 
@@ -168,22 +168,22 @@ bingoList[3] = [{ name: "アヌビス*QQ*", types: ["w_rein"] },
 { name: "コオリノキバ3段階強化以上", types: ["f_bite"] },
 { name: "フラクチャー3段階強化以上", types: ["flac"] },
 { name: "MかD付きのコスト4のスペル", types: ["cost"] },
-{ name: "ヴィヴィセクション、ヘルファイア", types: ["vivi", "h_fire"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "ヴィヴィセクション、ヘルファイア", types: ["vivi", "h_fire"] },
+{ name: "インチキ4段階強化", types: ["intk"] },
+{ name: "リバー3段階強化", types: ["river"] },
+{ name: "バリアー3段階強化", types: ["baria"] },
+{ name: "キュウシュウ3段階強化", types: ["kyusyu"] },
+{ name: "スパイクストリップ5段階強化", types: ["ss"] },
+{ name: "ラムジェット5段階強化", types: ["jet"] },
+{ name: "メルトダウン4段階強化", types: ["md"] },
+{ name: "シャドウシフト4段階強化", types: ["ss"] },
+{ name: "デッキシールド4段階強化", types: ["ds"] },
+{ name: "イッセン4段階強化", types: ["issen"] },
+{ name: "アンソクノチ4段階強化", types: ["an"] },
+{ name: "モノクル、ジグザグ、フラクチャー", types: ["mono", "zig", "frac"] },
+{ name: "マズルブレーキ、ゼニス、トライショット", types: ["zeni", "mb", "t_shot"] },
+{ name: "タレットSD、パイロブラスト、フロストボルト", types: ["t_sd", "f_bolt"] },
+{ name: "タレットSD、タイムスフィア", types: ["cal_col", "t_sd", "ts"] }];
 
 
 
@@ -226,15 +226,15 @@ bingoList[4] = [{ name: "MAXHP2100以上", types: ["maxhp"] },
 { name: "フェイトシールド3段階強化以上", types: ["f_shield"] },
 { name: "シールドアップ4段階強化以上", types: ["s_up"] },
 { name: "クシザシ2段階強化以上", types: ["skewer"] },
-{ name: "ソードライン2段階強化以上", types: ["s_line"] }];
-
-
-
-
-
-
-
-
+{ name: "ソードライン2段階強化以上", types: ["s_line"] },
+{ name: "ライゲキ", types: ["raigeki"] },
+{ name: "チェンソーストーム", types: ["cal_col", "cs"] },
+{ name: "ホーリーグラウンド", types: ["cal_col", "hg"] },
+{ name: "スティンガー", types: ["cal_col", "sti"] },
+{ name: "キシュウ", types: ["", "kisyu"] },
+{ name: "スパイクタンパク質、デトックス、キュウソク", types: ["tan", "detox", "kyusoku"] },
+{ name: "タレットSD、チャージリング", types: ["t_sd", "c_ring"] },
+{ name: "タレットSD、グリッターストーム", types: ["cal_col", "t_sd", "g_storm"] }];
 
 
 
@@ -293,15 +293,15 @@ bingoList[5] = [{ name: "インフィニティビーム", types: ["i_beam"] },
 { name: "マナスティール2段階強化以上", types: ["m_steel"] },
 { name: "ボスに見逃される", types: ["kuyasii"] },
 { name: "スケイル、シャドウポイズン、ダブルトキシン", types: ["scale", "s_poison", "twoxin"] },
-{ name: "コスト10のスペル(マナバースト不可、リミブレ不可)", types: ["rein", "cost"] }];
-
-
-
-
-
-
-
-
+{ name: "コスト10のスペル(マナバースト不可、リミブレ不可)", types: ["rein", "cost"] },
+{ name: "インバーター", types: ["inbata"] },
+{ name: "オーバーロード", types: ["cal_col", "ol"] },
+{ name: "ダウンフォール", types: ["cal_col", "df"] },
+{ name: "シバカリキ", types: ["cal_col", "siba"] },
+{ name: "イッセイシャゲキ", types: ["cal_col", "is"] },
+{ name: "サバイバルキット、ナイフ、ライフジャケット", types: ["sk", "knife", "jet"] },
+{ name: "タレットSD、リリー", types: ["t_sd", "lily"] },
+{ name: "タレットSD、イクサノミチ", types: ["cal_col", "t_sd", "ikusa"] }];
 
 
 
@@ -370,21 +370,21 @@ bingoList[6] = [{ name: "ヴィヴィセクション", types: ["vivi"] },
 { name: "トライショット2段階強化以上", types: ["t_shot"] },
 { name: "ボスと相打ち(見逃すしか出来ない状態)", types: ["kakkoii"] },
 { name: "コスト8のスペル所持(マナバースト不可、リミブレ不可)", types: ["8"] },
-{ name: "戦場の全タイル炎上させる", types: ["fire"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "戦場の全タイル炎上させる", types: ["fire"] },
+{ name: "ジャックハンマー", types: ["jh"] },
+{ name: "ミサイルサイロ", types: ["cal_col", "ms"] },
+{ name: "タイムスフィア", types: ["cal_col", "ts"] },
+{ name: "キセキ", types: ["cal_col", "kiseki"] },
+{ name: "トラップカード", types: ["tc"] },
+{ name: "検閲の黒線、ブラックアウト", types: ["kk", "b_out"] },
+{ name: "黄金の招き猫、コネコ", types: ["omn", "koneko"] },
+{ name: "チュチュ、サーキット", types: ["tyu", "circuit"] },
+{ name: "パラゴン、ツナミ、プッシュアップ", types: ["para", "tsunami", "p_up"] },
+{ name: "ミラクル、キセキ", types: ["cal_col", "miracle", "kiseki"] },
+{ name: "メルトダウン、ダイカンパ、冷血", types: ["c_snap", "md", "c_blood"] },
+{ name: "キャンディラッパー、2度目の朝食", types: ["c_wrapper", "2bf"] },
+{ name: "タレットSD、シバカリキ", types: ["cal_col", "t_sd", "siba"] },
+{ name: "タレットSD、ライフソード", types: ["cal_col", "t_sd", "l_sword"] }];
 
 
 
@@ -436,17 +436,17 @@ bingoList[7] = [{ name: "コイントスで200失う", types: ["luck"] },
 { name: "サケメ2段階強化以上", types: ["sakeme"] },
 { name: "グラシファイ2段階強化以上", types: ["gurasi"] },
 { name: "血液提供でもらえるお金1", types: ["blood"] },
-{ name: "タレットSD   SD(強化)", types: ["rein", "t_sd"] },
-{ name: "タレットSD、バックバーナー、バックスタブ", types: ["t_sd", "b_stab", "b_burner"] }];
-
-
-
-
-
-
-
-
-
+{ name: "タレットSDをSD強化する(余分な強化は×", types: ["rein", "t_sd"] },
+{ name: "タレットSD、バックバーナー、バックスタブ", types: ["t_sd", "b_stab", "b_burner"] },
+{ name: "トラップカード、デュエルディスク、ソードオブライト", types: ["t_c", "duel", "sol"] },
+{ name: "水車、風車、リングオブファイア", types: ["rof", "kaze", "sui"] },
+{ name: "ブタの貯金箱、黄金の招き猫", types: ["buta", "neko"] },
+{ name: "2度目の朝食、ミントティ", types: ["2bf", "tea"] },
+{ name: "マズルブレーキ、マナバースト", types: ["mb", "m_burst"] },
+{ name: "ライフジャケット、医療キット、包帯", types: ["lj", "kit", "houtai"] },
+{ name: "キュウシュウ、キュウケツ", types: ["kyusyu", "ketsu"] },
+{ name: "タレットSD、ライゲキ", types: ["raigeki", "t_sd"] },
+{ name: "タレットSD、カーペットボム、シャドウシフト", types: ["ss", "t_sd", "c_bomb"] }];
 
 
 
@@ -506,28 +506,28 @@ bingoList[8] = [{ name: "Vガン", types: ["v_gan", "l_arti"] },
 { name: "トランスヒューズ2段階強化以上", types: ["t_fuse"] },
 { name: "ショータイム2段階強化以上", types: ["showtime"] },
 { name: "バウンドブレード2段階強化以上", types: ["b_b"] },
-{ name: "タイルファイア2段階強化以上", types: ["t_fire"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "タイルファイア2段階強化以上", types: ["t_fire"] },
+{ name: "ケバブ、チョコミントチップ", types: ["kbb", "c_chip"] },
+{ name: "トランスミッション、ローズ", types: ["tm", "rose"] },
+{ name: "Anima13個以上", types: ["brand"] },
+{ name: "Convergence13個以上", types: ["brand"] },
+{ name: "Doublelife13個以上", types: ["brand"] },
+{ name: "Glimmer13個以上", types: ["brand"] },
+{ name: "Hearth13個以上", types: ["brand"] },
+{ name: "Hexawan13個以上", types: ["brand"] },
+{ name: "Kinesys13個以上", types: ["brand"] },
+{ name: "Miseri13個以上", types: ["brand"] },
+{ name: "Phalanx13個以上", types: ["brand"] },
+{ name: "Slashfik13個以上", types: ["brand"] },
+{ name: "三角州、トライフォース", types: ["sks", "t_force"] },
+{ name: "2度目の朝食、サーモファージ", types: ["2bf", "sf"] },
+{ name: "ジャムシールド、レールガン、クシザシ", types: ["js", "railgan", "skewer"] },
+{ name: "アンソクノチ、シールドアップ、フォルテ", types: ["an", "s_up", "forte"] },
+{ name: "ユニコーンボム、バクダンナゲ", types: ["u_bomb", "baku"] },
+{ name: "リバー、リバースウェイブ、シトリン", types: ["river", "r_wave", "citrine"] },
+{ name: "インチキ、ボルトアクション、毒瓶", types: ["intk", "ba", "p_pot"] },
+{ name: "タレットSD、スティンガー", types: ["cal_col", "t_sd", "sti"] },
+{ name: "タレットSD、メリットバッジ", types: ["merit", "t_sd"] }];
 
 
 
@@ -571,28 +571,28 @@ bingoList[9] = [{ name: "ウイング", types: ["wing", "l_arti"] },
 { name: "インクライン3段階強化以上", types: ["i_line"] },
 { name: "ソウルリンク2段階強化以上", types: ["s_link"] },
 { name: "ワブル2段階強化以上", types: ["wobble"] },
-{ name: "ガンタレット2段階強化以上", types: ["g_t"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "ガンタレット2段階強化以上", types: ["g_t"] },
+{ name: "ダイヘンドウ2段階強化", types: ["dhd"] },
+{ name: "共生、ウイルス伝達物質", types: ["kyosei", "vdb"] },
+{ name: "Z細胞、ラストレター", types: ["z", "l_letter"] },
+{ name: "パラゴン、ナナメビーム、ジグザグ", types: ["para", "d_beam", "zig"] },
+{ name: "スパイクストリップ*D*、テツビシ*D*", types: ["ss", "bishi"] },
+{ name: "クライオファージ、クライオキネシス", types: ["cf", "cri"] },
+{ name: "キュラソー、ブースターショット", types: ["kyu", "b_shot"] },
+{ name: "氷の彫刻、シールドジェネレーター", types: ["kck", "s_gene"] },
+{ name: "チュチュ、アライン", types: ["tyu", "align"] },
+{ name: "ウイルス伝達物質、ウィルスペル", types: ["vdb", "v_spell"] },
+{ name: "アンブレラ、サンダーストーム", types: ["um", "s_storm"] },
+{ name: "XD-40、ショットガン", types: ["xd", "s_gun"] },
+{ name: "金床、グラナイト", types: ["kndk", "gura"] },
+{ name: "キュラソー、ファイアストーム、ビーコン", types: ["kyu", "f_storm", "beacon"] },
+{ name: "ケバブ、硬化シールド", types: ["kbb", "h_shield"] },
+{ name: "マズルブレーキ、タツマキ、デッキスラム", types: ["mb", "tatsu", "d_slum"] },
+{ name: "アイススパイク、マインフィールド、有糸分裂", types: ["i_spike", "m_field", "yb"] },
+{ name: "金床、ファイアウォール、トラバサミ", types: ["kndk", "f_wall", "trap"] },
+{ name: "サバイバルキット、ヘドロボム、タイルファイア", types: ["sk", "hedoro", "t_fire"] },
+{ name: "タレットSD、ミサイルサイロ", types: ["cal_col", "t_sd", "ms"] },
+{ name: "タレットSD、ウイルス伝達物質", types: ["vdb", "t_sd"] }];
 
 
 
@@ -643,27 +643,27 @@ bingoList[10] = [{ name: "イクサノミチ", types: ["w_p", "cal_col"] },
 { name: "ブースターショット2段階強化以上", types: ["b_shot"] },
 { name: "トラクタービーム2段階強化以上", types: ["t_beam"] },
 { name: "ブラストクリスタル3段階強化以上", types: ["b_crystal"] },
-{ name: "ハックツ、ツナミ、ゼラチン", types: ["hakkutu", "tsunami", "zera"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "ハックツ、ツナミ、ゼラチン", types: ["hakkutu", "tsunami", "zera"] },
+{ name: "神経ガス、アヌビス、スモッグ", types: ["gas", "anu", "smog"] },
+{ name: "共生、レゾナンス", types: ["kyo", "reso"] },
+{ name: "ウイルス伝達物質、キタカゼ", types: ["vdb", "kitakaze"] },
+{ name: "カーペットボムD、氷盤", types: ["c_bomb", "i_floe"] },
+{ name: "カーペットボム、バックバーナー", types: ["c_bomb", "b_burner"] },
+{ name: "カーペットボム、バックスタブ", types: ["c_bomb", "b_stab"] },
+{ name: "カーペットボム、ピンチ", types: ["c_bomb", "pinch"] },
+{ name: "カーペットボム、タレットSD", types: ["c_bomb", "t_sd"] },
+{ name: "カーペットボム、シャドウシフト", types: ["c_bomb", "ss"] },
+{ name: "カーペットボム、フェードアウェイ", types: ["c_bomb", "f_away"] },
+{ name: "モノクル、ミラー", types: ["mono", "mirror"] },
+{ name: "神経ガス、グリッターボム", types: ["gas", "g_storm"] },
+{ name: "ブタの貯金箱、コイントス", types: ["coin", "buta", "luck"] },
+{ name: "陥没穴、ムーンストーン", types: ["m_stone", "kba"] },
+{ name: "共生、ロックサイクル、アースアーマー", types: ["kyo", "r_cycle", "e_armer"] },
+{ name: "スパイクタンパク質、イッセン、インチキ", types: ["sts", "issen", "intk"] },
+{ name: "シャドウシフト、グラスキャノン、マナジャム", types: ["ss", "g_cannon", "m_jam"] },
+{ name: "シャドウシフト、シュガーグラス、スポットライト", types: ["ss", "s_glass", "spot"] },
+{ name: "タレットSD、チェンソーストーム", types: ["cal_col", "t_sd", "cs"] },
+{ name: "タレットSD、キセキ", types: ["cal_col", "t_sd", "kiseki"] }];
 
 
 
@@ -716,19 +716,19 @@ bingoList[11] = [{ name: "キュウソク*HH*", types: ["w_rein", "rest"] },
 { name: "ナイフ2段階強化以上", types: ["knife"] },
 { name: "シールドジェネレーター2段階強化以上", types: ["s_gen"] },
 { name: "ヘドロボム2段階強化以上", types: ["s_bomb"] },
-{ name: "エナージャイズ2段階強化以上", types: ["energy"] }];
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "エナージャイズ2段階強化以上", types: ["energy"] },
+{ name: "ダイヘンドウ、イオンキャノン、ヨシン", types: ["dhd", "i_c", "yosin"] },
+{ name: "トランスミッション、アップウインド", types: ["tm", "u_wind"] },
+{ name: "イッセン、1000クレジット以上", types: ["issen", "money"] },
+{ name: "スパイクタンパク質、ロックタンブラー", types: ["sts", "r_tumblr"] },
+{ name: "金床、万能ナイフ", types: ["kndk", "bn"] },
+{ name: "コオリノキバ、検閲の黒線、サケメ", types: ["kiba", "kk", "sakeme"] },
+{ name: "トランスミッション、マイクロミサイル、サルベージ", types: ["tm", "m_missile", "salvage"] },
+{ name: "アンビエントバースト、水車、シャードトス", types: ["a_burst", "sui", "s_toss"] },
+{ name: "クレジットガン、チャージボウ、XD-40", types: ["c_gun", "c_bow", "xd"] },
+{ name: "トライデント、サーモファージ、ジャムキャノン", types: ["tri", "sf", "j_cannon"] },
+{ name: "タレットSD、イッセイシャゲキ", types: ["cal_col", "t_sd", "issei"] },
+{ name: "タレットSD、神経ガス", types: ["gas", "t_sd"] }];
 
 
 
@@ -782,26 +782,26 @@ bingoList[12] = [{ name: "アーティファクトが新規入手できない状
 { name: "シールドジェネレーター、ヘイメンセツ、ウォール、リース、サルベージ", types: ["s_generater", "wall", "wreath", "sal"] },
 { name: "ホショク、サラマンダー、コオリノキバ", types: ["sala", "hebi", "f_bite"] },
 { name: "ラッキーボックス3個", types: ["luckbox", "miniboss"] },
-{ name: "444(強化4段階のスペルを3つ同時所持)", types: ["444", "666", "777"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "444(強化4段階のスペルを3つ同時所持)", types: ["444", "666", "777"] },
+{ name: "キュラソー、ポイズンテイル、ポイズンダーツ", types: ["kyu", "p_tail", "p_dirt"] },
+{ name: "有糸分裂、ヤマビコ", types: ["yb", "yamabiko"] },
+{ name: "万能ナイフ、栄光の炎", types: ["bn", "fire"] },
+{ name: "三角州、水車", types: ["san", "sui"] },
+{ name: "振り子、タイムスロー", types: ["hu", "t_slow"] },
+{ name: "氷の彫刻、フロストバレッジ", types: ["kc", "f_barrage"] },
+{ name: "陥没穴、ラッキーボックス2つ", types: ["kba", "box"] },
+{ name: "神経ガス、XD-40", types: ["sg", "xd"] },
+{ name: "チュチュ、ブレードベイ", types: ["tyu", "b_bay"] },
+{ name: "ケバブ、バブル", types: ["kbb", "babble"] },
+{ name: "ジャムシールド、シールドキャッチ、シールドビーム", types: ["js", "s_pot", "c_beam"] },
+{ name: "バリアー、リバー", types: ["baria", "river"] },
+{ name: "イッセイホウシャ、キシュウ", types: ["issei", "kisyu"] },
+{ name: "クライオファージ、アンブレラ", types: ["cf", "um"] },
+{ name: "デッキシールド、ブルーフレイム、ヒットシーカー", types: ["ds", "b_flame", "h_seeker"] },
+{ name: "ダイヘンドウ、プル、マイン、マナラティス", types: ["dhd", "pull", "mine", "m_lati"] },
+{ name: "アマルガム、コルセット、サンビーマー、スパイクストリップ", types: ["amal", "col", "sbm", "ss"] },
+{ name: "タレットSD、オーバーロード", types: ["cal_col", "t_sd", "ol"] },
+{ name: "タレットSD、モンスーン", types: ["cal_col", "t_sd", "monsoon"] }];
 
 
 
@@ -849,24 +849,24 @@ bingoList[13] = [{ name: "ヘルファイア、ヨゲン、バックバーナー
 { name: "ダークモード宝箱マスで宝箱が2つ同時存在", types: ["treasure"] },
 { name: "通常トレジャーマスでクリスタル3つ存在", types: ["treasure"] },
 { name: "通常トレジャーマスで宝箱2つ存在", types: ["treasure"] },
-{ name: "花を3つ集める", types: ["flowers"] }];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ name: "花を3つ集める", types: ["flowers"] },
+{ name: "トライデント、ステップスピアZ*", types: ["td", "s_spear"] },
+{ name: "ボルトアクション、フロストボルト", types: ["ba", "f_bolt"] },
+{ name: "アンソクノチ、エアスラッシュ、キネティックウェーブ", types: ["an", "a_slash", "c_wave"] },
+{ name: "万能ナイフ、バックバーナー", types: ["bn", "b_burner"] },
+{ name: "振り子、シュウチュウ、キュウソク", types: ["hu", "syutyu", "kyusoku"] },
+{ name: "インチキ、Z細胞", types: ["intk", "z"] },
+{ name: "サンビーマー、ソーラーチャージ", types: ["sb", "s_charge"] },
+{ name: "コブラケア、マジッククロー", types: ["cc", "m_claw"] },
+{ name: "キュラソー、トライラグ、トライショット", types: ["kyu", "t_rag", "t_shot"] },
+{ name: "ラムジェット、ミサイルトー", types: ["jet", "m_toe"] },
+{ name: "ウラニウム、メルトダウン", types: ["ura", "md"] },
+{ name: "アンブレラ、ヘイルストーム", types: ["um", "h_storm"] },
+{ name: "シャドウシフト、フェードアウェイ", types: ["ss", "f_away"] },
+{ name: "アースワーム、ブラシファイア、振り子", types: ["e_warm", "b_fire", "hu"] },
+{ name: "ラムジェット、ジャムシールド、インバーター", types: ["jet", "js", "inbata"] },
+{ name: "タレットSD、ジャックハンマー", types: ["jh", "t_sd"] },
+{ name: "タレットSD、アースワーム、リース", types: ["e_warm", "t_sd", "wreath"] }];
 
 
 
